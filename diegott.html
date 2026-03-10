@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DISOPA Proyectos - Pozos de Agua en Perú</title>
+  <meta name="description" content="SOTE Proyectos. Perforación, mantenimiento y evaluación técnica de pozos de agua en Perú.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1d2228;
+    }
+
+    header {
+      background: linear-gradient(135deg, #17191b, #16191d);
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 18px;
+    }
+
+    .botones {
+      margin-top: 25px;
+    }
+
+    .botones a {
+      display: inline-block;
+      margin: 8px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-blanco {
+      background: white;
+      color: #1b1f22;
+    }
+
+    .btn-borde {
+      border: 2px solid white;
+      color: white;
+    }
+
+    nav {
+      background: white;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #21272d;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #191d21;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    .subtexto {
+      text-align: center;
+      max-width: 750px;
+      margin: 0 auto 35px;
+      color: #0f1012;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #1b1e22;
+    }
+
+    .proyectos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 25px;
+    }
+
+    .proyecto {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .imagen-proyecto {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .etiqueta {
+      display: inline-block;
+      background: #dbeafe;
+      color: #14181b;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    .proyecto h3 {
+      margin-top: 0;
+      color: #212427;
+    }
+
+    .proyecto ul {
+      padding-left: 20px;
+    }
+
+    .proyecto li {
+      margin-bottom: 8px;
+    }
+
+    .boton {
+      display: inline-block;
+      background: #181c20;
+      color: white;
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: #14171a;
+      color: white;
+      text-align: center;
+      padding: 22px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DISOPA Proyectos</h1>
+    <p>Perforación, mantenimiento y evaluación técnica de pozos de agua en Perú.</p>
+
+    <div class="botones">
+      <a href="#proyectos" class="btn-blanco">Ver proyectos</a>
+      <a href="#contacto" class="btn-borde">Contactar</a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="nosotros">
+    <h2>Sobre DISOPA</h2>
+    <p class="subtexto">
+      Página profesional pensada para mostrar proyectos de pozos de agua con información clara,
+      referencias visuales y espacio para documentos técnicos.
+    </p>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3>Empresa</h3>
+        <p>DISOPA presenta sus trabajos con una estructura ordenada y profesional para clientes y socios.</p>
+      </div>
+
+      <div class="card">
+        <h3>Objetivo</h3>
+        <p>Mostrar pozos por ubicación, profundidad, caudal, estado del proyecto y documentación asociada.</p>
+      </div>
+
+      <div class="card">
+        <h3>Presencia digital</h3>
+        <p>Base lista para luego subirla a internet y posicionarla como DISOPA Proyectos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <p class="subtexto">Servicios principales de la empresa mostrados de forma clara.</p>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3>Perforación de pozos</h3>
+        <p>Desarrollo de proyectos para uso doméstico, agrícola, comercial e industrial.</p>
+      </div>
+
+      <div class="card">
+        <h3>Mantenimiento</h3>
+        <p>Limpieza, revisión y mejora del rendimiento de pozos ya construidos.</p>
+      </div>
+
+      <div class="card">
+        <h3>Evaluación técnica</h3>
+        <p>Diagnóstico del terreno y revisión técnica para definir la mejor solución.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos Destacados</h2>
+    <p class="subtexto">Estas son imágenes de referencia por ahora. Luego las cambiamos por fotos reales de DISOPA.</p>
+
+    <div class="proyectos">
+
+      <div class="proyecto">
+        <img src="https://picsum.photos/800/500?random=11" alt="Proyecto de referencia 1" class="imagen-proyecto">
+        <span class="etiqueta">Lima</span>
+        <h3>Pozo - La Molina</h3>
+        <p>Proyecto presentado con datos técnicos y espacio para informe descargable.</p>
+        <ul>
+          <li><strong>Profundidad:</strong> 80 m</li>
+          <li><strong>Caudal:</strong> 5 L/s</li>
+          <li><strong>Ubicación:</strong> La Molina</li>
+          <li><strong>Estado:</strong> Finalizado</li>
+        </ul>
+        <a href="#" class="boton">Descargar informe</a>
+      </div>
+
+      <div class="proyecto">
+        <img src="https://picsum.photos/800/500?random=22" alt="Proyecto de referencia 2" class="imagen-proyecto">
+        <span class="etiqueta">Piura</span>
+        <h3>Pozo - Sullana</h3>
+        <p>Tarjeta profesional lista para luego reemplazar con fotos reales de DISOPA.</p>
+        <ul>
+          <li><strong>Profundidad:</strong> 120 m</li>
+          <li><strong>Caudal:</strong> 7 L/s</li>
+          <li><strong>Ubicación:</strong> Sullana</li>
+          <li><strong>Estado:</strong> Finalizado</li>
+        </ul>
+        <a href="#" class="boton">Descargar Excel</a>
+      </div>
+
+      <div class="proyecto">
+        <img src="https://picsum.photos/800/500?random=33" alt="Proyecto de referencia 3" class="imagen-proyecto">
+        <span class="etiqueta">Ica</span>
+        <h3>Pozo - Ica Centro</h3>
+        <p>Espacio listo para agregar video, foto real o documentación del proyecto.</p>
+        <ul>
+          <li><strong>Profundidad:</strong> 95 m</li>
+          <li><strong>Caudal:</strong> 6 L/s</li>
+          <li><strong>Ubicación:</strong> Ica</li>
+          <li><strong>Estado:</strong> En evaluación</li>
+        </ul>
+        <a href="#" class="boton">Ver documentación</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p class="subtexto">Aquí luego pondrás los datos reales de la empresa.</p>
+
+    <div class="card">
+      <p><strong>Empresa:</strong> Pozo Agua E.I.R.L. - DISOPA</p>
+      <p><strong>Nombre comercial:</strong> DISOPA Proyectos</p>
+      <p><strong>Teléfono:</strong> 902 021 951 </p>
+      <p><strong>Correo:</strong> juansotelogarcia12345@gmail.com</p>
+      <p><strong>Ubicación:</strong> Perú , Lima</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 DISOPA Proyectos - Todos los derechos reservados</p>
+  </footer>
+
+
+</body>
+</html>
